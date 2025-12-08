@@ -8,11 +8,16 @@ export function main(){
 
     const conta: Conta = new Conta(1,123,1,"Adriana",10000);
     conta.visualizar();
-    conta.sacar(10500);
-    conta.visualizar();
     conta.depositar(5000);
     conta.visualizar();
+    conta.sacar(10500);
+    conta.visualizar();
 
+    const contaAndre: Conta = new Conta(123,7794,2,"André",45000)
+    contaAndre.depositar(200);
+    contaAndre.visualizar();
+    contaAndre.sacar(5000)
+    contaAndre.visualizar();
     while(true){
         
         console.log(colors.bg.black, colors.fg.yellow,
