@@ -1,4 +1,5 @@
-export class Conta {
+    // classe conta é a classe mae do projeto onde outras classes iram herdar atributos dela.
+export abstract class Conta {
     private _numero: number;
     private _agencia: number;
     private _tipo: number;
