@@ -1,8 +1,7 @@
-import { loadavg } from "os";
 import { Conta } from "../model/Conta";
 import { ContaRepository } from "../repository/ContaRepository";
 import { colors } from "../util/Colors";
-import { log } from "console";
+
 
 
 
