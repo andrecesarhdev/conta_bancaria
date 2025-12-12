@@ -196,8 +196,8 @@ export function main() {
 } export function sobre(): void {
     console.log("\n**********************************************************");
     console.log("Projeto Desenvolvido por: André César");
-    console.log("Generation Brasil - generation@generation.org");
-    console.log("github.com/conteudoGeneration");
+    console.log("Generation Brasil - andrecesarhenrique@gmail.com");
+    console.log("https://github.com/andrecesarhdev");
     console.log("************************************************************");
 }
 
