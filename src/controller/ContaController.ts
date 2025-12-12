@@ -60,10 +60,10 @@ export class ContaController implements ContaRepository {
 
         if(conta != null){
             if(conta.sacar(valor)==true)
-                console.log(colors.fg.green, "\nO saque na conta numero: " + numero + " foi efetuado com sucesso!" , colors.reset);
+                console.log(colors.fg.green, "\nO saque na conta numero " + numero +":" + " foi efetuado com sucesso!" , colors.reset);
                 
         }else {
-            console.log(colors.fg.red, "\nA conta numero: " + numero + " nao foi encontrada!" , colors.reset);
+            console.log(colors.fg.red, "\nA conta numero "+  numero + ":" + " nao foi encontrada!" , colors.reset);
         }
     }
     depositar(numero: number, valor: number): void {
